@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagens/fundo.jfif);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background: rgb(114, 112, 112);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    padding: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.ge{
+    width: 85px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 3px solid rgb(10, 10, 10);
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid rgb(12, 12, 12);
+}
+
+.button:hover{
+    background-color: rgb(3, 3, 128);
+}
